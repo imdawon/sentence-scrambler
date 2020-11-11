@@ -4,8 +4,7 @@ const main = (sentence) => {
 }
 
 const sentenceChop = sentence => {
-    let choppedSentenceArr = sentence.split(' ');
-    return choppedSentenceArr;
+    return sentence.split(' ');
 }
 
 const generateWordFlip = choppedSentence => {
