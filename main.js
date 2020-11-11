@@ -1,6 +1,5 @@
 const main = (sentence) => {
-    let choppedSentenceArr = sentenceChop(sentence);
-    return shuffle(choppedSentenceArr).join(' ');
+    return shuffle(sentenceChop(sentence)).join(' ');
 }
 
 const sentenceChop = sentence => {

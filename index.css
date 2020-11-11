@@ -4,3 +4,17 @@ body {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+#sentence-form {
+    margin-bottom: 25px;
+}
+
+#sentence-input {
+    width: 400px;
+    height: 25px;
+}
+
+#randomize-btn {
+    width: 175px;
+    padding: 6px;
+}
