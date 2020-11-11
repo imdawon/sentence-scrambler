@@ -1,5 +1,5 @@
 const main = (sentence) => {
-    return shuffle(sentenceChop(sentence)).join(' ');
+    return wordCaseConvert(shuffle(sentenceChop(sentence)).join(' '));
 }
 
 const sentenceChop = sentence => {
@@ -18,4 +18,10 @@ const shuffle = array => {
         array[j] = temp
     }
     return array;
+}
+
+const wordCaseConvert = sentence => {
+    sentence = sentence.toLowerCase();
+    sentence = sentence + '.';
+    return sentence[0].toUpperCase() + sentence.slice(1)
 }
