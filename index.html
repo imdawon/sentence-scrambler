@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <script src="main.js"></script>
     <title>Document</title>
 </head>
+
 <body>
-    <div id="sentence-form">
-        <input type="text" id="sentence-input">
-        <button id="randomize-btn">Randomize</button>
-    </div>
-    <div id="message">
-        <h1>
-            <script>
-               document.write(main('18 naked cowboys in the showers at ram ranch'));    
-            </script>
-        </h1>    
+    <div class="container">
+        <div id="sentence-form">
+            <input type="text" id="sentence-input" placeholder="I can do that hold my beer">
+            <button id="randomize-btn">Randomize</button>
+        </div>
+        <div id="message">
+            <h1 id="scrambled-text"></h1>
+        </div>
     </div>
 </body>
+
+<script src="main.js"></script>
+<script src="document.js"></script>
+
 </html>

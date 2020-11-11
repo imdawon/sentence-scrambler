@@ -19,5 +19,3 @@ const shuffle = array => {
       }
       return array;
 }
-
-main('18 naked cowboys in the showers at ram ranch')
