@@ -1,6 +1,6 @@
 const main = (sentence) => {
     let choppedSentenceArr = sentenceChop(sentence);
-    console.log(shuffle(choppedSentenceArr).join(' '));
+    return shuffle(choppedSentenceArr).join(' ');
 }
 
 const sentenceChop = sentence => {
@@ -22,4 +22,4 @@ const shuffle = array => {
       return array;
 }
 
-main('I can do that hold my beer')
+main('18 naked cowboys in the showers at ram ranch')
