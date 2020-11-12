@@ -1,5 +1,15 @@
 const main = (sentence) => {
-    return wordCaseConvert(shuffle(sentenceChop(sentence)).join(' '));
+    sentence = sentence.trim();
+    if (!sentence) {
+        return false, 'Form cannot be blank';
+    }
+    if (sentence.split(' ').length <= 1) {
+        return false, 'Please enter at least two words';
+    }
+
+    return wordCaseConvert(
+        shuffle(
+            sentenceChop(sentence)).join(' '));
 }
 
 const sentenceChop = sentence => {
@@ -24,4 +34,7 @@ const wordCaseConvert = sentence => {
     sentence = sentence.toLowerCase();
     sentence = sentence + '.';
     return sentence[0].toUpperCase() + sentence.slice(1)
+}
+
+const formValidation = sentence => {
 }
