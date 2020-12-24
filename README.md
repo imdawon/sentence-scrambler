@@ -1,6 +1,8 @@
 # sentence-scrambler
 Beer I hold, that my can do.
 
+![https://dhens.github.io/sentence-scrambler/](https://dhens.github.io/sentence-scrambler/)
+
 User story:
 **As a hilarious individual, I want access to the powers of sentence scrambling, so I can see the funniest possible version of a sentence**
 
